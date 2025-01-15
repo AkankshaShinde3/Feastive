@@ -1,0 +1,12 @@
+{
+    "info": {
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/5/dc74a4b7-8d63-4eb7-91c9-048973c2cc99_1003414.jpg",
+      "name": "Pizza Hut",
+      "cuisines": ["Pizzas"],
+      "avgRating": 3.2,
+      "costForTwo": "₹350 for two",
+      "sla": {
+        "deliveryTime": 53
+      }
+    }
+  }
