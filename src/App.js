@@ -6,7 +6,6 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Cart from "./components/Cart";
-import Grocery from "./components/Grocery";
 import RestaurantMenu from "./components/RestaurantMenu";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import UserContext from "./utils/UserContext";
@@ -31,9 +30,7 @@ const AppLayout = () => {
 
   return (
     <Auth0Provider
-      // domain="dev-3x2ritez6xqi38mb.jp.auth0.com" feastive
       domain="dev-3x2ritez6xqi38mb.jp.auth0.com"
-      // clientId="8iLG54GD4xCHqzfmeYOobZQ60H60eMWF" //feastive
       clientId="q5MzindG8HDcqYljqVVLGhatVrI44wNH"
       authorizationParams={{
         redirect_uri: window.location.origin,
